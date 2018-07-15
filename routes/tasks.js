@@ -1,10 +1,9 @@
 var express=require('express');
 var router=express.Router();
 
-router.get('/',function(req,res,next){
-    res.send('INDEX PAGE');
+router.get('/tasks',function(req,res,next){
+    res.send('TASKS API');
 });
 
 
 module.exports=router;
- 
